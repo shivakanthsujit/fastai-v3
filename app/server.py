@@ -1,6 +1,6 @@
 import aiohttp
 import asyncio
-import uvicorn
+import gunicorn
 from fastai import *
 from fastai.vision import *
 from io import BytesIO
